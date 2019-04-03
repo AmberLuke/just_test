@@ -87,7 +87,7 @@ int main(int argc, char **argv)
 	//cout << str << endl;
 	//system("pause");
 	//return 0;
-	vector<int> a{ 3,5,-5,3,-1,4,9,-5,- 4, 5,3,-2,4,-5,8,5,2,4,2,-9,3,5,3,2,-5};
+	vector<int> a{ 3,5,-5,3,-1,4,9,-5,- 4, 5,3,-2,4,-5,8,5,2,4,2,-9,3,5,3,2,-5,4,2,-4,2,4,2};
 	cout << submax(a, 0, int(a.size() - 1))<<endl;
 	system("pause");
 }
